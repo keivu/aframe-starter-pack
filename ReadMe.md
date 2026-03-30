@@ -34,7 +34,8 @@ To Setup Your Code and Live Site (GitHub and GitHub Pages) first **sign in or cr
 2. Your **repository link** (your code)
 
 
-## STEP 02 - To Edit Your Code
+## STEP 02
+To **edit a copy of your code locally and keep everything synced** with your online Github repository and live Github Pages site:
 
 ### Download the Software
 
