@@ -2,20 +2,20 @@
 
 Below you’ll find instructions to copy (fork) this repository and set it up for your own experiments.
 
-### STEP 01 - **Setup: GitHub → GitHub Pages → Live Site**
-### STEP 02 -**To Edit Your Code: GitHub Desktop → VS Code → Local Preview**
+### STEP 01 - **Setup Your online code and Live Site in GitHub**
+### STEP 02 - **Edit Your Code locally with GitHub Desktop, VS Code and Local Preview plugin**
 
 ##
 
 
-## STEP 01 - Setup Your Code and Live Site (Github and Github Pages)
+## STEP 01
 
-1. **Sign in or create a new GitHub account** if you do not already have one.
+To Setup Your Code and Live Site (GitHub and GitHub Pages)first **sign in or create a new GitHub account** if you do not already have one
 
-### Fork the Example Repository
+### Fork the Example Repository ("Repo")
 
 1. Go to the [Example Code Repo](https://github.com/sheiva/aframe-starter-pack): https://github.com/sheiva/aframe-starter-pack and click **Fork** in the top right corner.
-2. **Create the fork under your own GitHub account.** This makes your own copy of the example repo that you can edit freely.
+2. **Create this forked repo under your own GitHub account.** This makes your own copy of the example repo that you can edit freely.
 
 ### Publish Your Live A-Frame Site
 
@@ -26,9 +26,10 @@ Below you’ll find instructions to copy (fork) this repository and set it up fo
    - Folder: `/root`
 4. Click **Save**.
 5. Wait a couple of minutes for GitHub Pages to publish your site.
-6. When you are asked to submit your work in class, submit:
-   - Your **GitHub Pages live link**
-   - Your **repository link**
+
+### When you are asked to submit your work in class, submit:
+1. Your **GitHub Pages live link**
+2. Your **repository link**
 
 
 ## STEP 02 - To Edit Your Code
@@ -74,4 +75,4 @@ When you want to save your work to GitHub:
 4. Click **Commit to main**.
 5. Click **Push origin**.
 
-Keep doing this as you continue editing so your work isn't just saved to your computer but is synced to your Github account (and your Github Pages site).
+Keep doing this as you continue editing. This way your work isn't just saved to your computer but is synced to your Github account (and your Github Pages site).
