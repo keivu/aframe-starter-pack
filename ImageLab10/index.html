@@ -5,11 +5,19 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cone rotation="180" position="0 1.25 -5" radius-bottom="0.75" height="2.5" color="#FFC65D"></a-cone>
+      <a-sphere position="0 3 -5" radius="1" color="#7BC8A4"></a-sphere>
+      <a-sphere position="0 3 -4" radius="0.05" color="chocolate"></a-sphere>
+      <a-sphere position="0.5 3.5 -4.27" radius="0.05" color="chocolate"></a-sphere>
+      <a-sphere position="-0.5 3.2 -4.1" radius="0.05" color="chocolate"></a-sphere>
+      <a-sphere position="0.35  2.55 -4" radius="0.05" color="chocolate"></a-sphere>
+      <a-sphere position="-0.4 2.6 -4" radius="0.05" color="chocolate"></a-sphere>
+      <a-sphere position="0 3.5 -4.1" radius="0.05" color="chocolate"></a-sphere>
+      <a-sphere position="0.6 3 -4.2" radius="0.05" color="chocolate"></a-sphere>
+      
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
+      
+      <a-sky src="assets/equirectangular.jpg"></a-sky>
     </a-scene>
   </body>
 </html>
