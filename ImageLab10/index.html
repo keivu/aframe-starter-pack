@@ -5,7 +5,8 @@
   </head>
   <body>
     <a-scene>
-      <a-cone rotation="180" position="0 1.25 -5" radius-bottom="0.75" height="2.5" color="#FFC65D"></a-cone>
+      // ice cream
+      <a-cone src="assets/waffle.jpg" rotation="180" position="0 1.25 -5" radius-bottom="0.75" height="2.5" color="#FFC65D"></a-cone>
       <a-sphere position="0 3 -5" radius="1" color="#7BC8A4"></a-sphere>
       <a-sphere position="0 3 -4" radius="0.05" color="chocolate"></a-sphere>
       <a-sphere position="0.5 3.5 -4.27" radius="0.05" color="chocolate"></a-sphere>
@@ -14,8 +15,10 @@
       <a-sphere position="-0.4 2.6 -4" radius="0.05" color="chocolate"></a-sphere>
       <a-sphere position="0 3.5 -4.1" radius="0.05" color="chocolate"></a-sphere>
       <a-sphere position="0.6 3 -4.2" radius="0.05" color="chocolate"></a-sphere>
-      
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      // pool float
+      <a-torus src="assets/metallic.jpg" rotation="90 45 0" position="-2 -1 -5" radius="1" radius-tubular="0.2" color="magenta"></a-torus>
+      <a-cylinder src="assets/metallic.jpg" rotation="90 0 90" position="-2.9 -0.7 -5" radius="0.5" height="0.1" color="magenta"></a-cylinder>
+      <a-cylinder src="assets/metallic.jpg" rotation="90 0 90" position="-1.1 -0.7 -5" radius="0.5" height="0.1" color="magenta"></a-cylinder>
       
       <a-sky src="assets/equirectangular.jpg"></a-sky>
     </a-scene>
